@@ -1,0 +1,72 @@
+body {
+  font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+#banner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  height: 40px;
+}
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  font-size: 16px;
+}
+#query {
+  position: absolute;
+  width: calc(100% - 60px);
+  height: 20px;
+  padding: 5px;
+  top: 5px;
+  right: 5px;
+  border: 0px;
+  font-size: 14px;
+}
+#chart {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 40px);
+  bottom: 0px;
+  left: 0px;
+}
+.line {
+  stroke: #000;
+  stroke-width: 0.05;
+}
+.active {
+  cursor: cursor;
+}
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  width: 120px;
+  height: auto;
+  padding: 5px;
+  font: 10px sans-serif;
+  background: #fff;
+  border: solid 1px #000;
+  /*border-radius: 8px;*/
+  pointer-events: none;
+  word-wrap:break-word;
+}
+text.axesText {
+  font-size: 0.5px;
+}
+div#spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
